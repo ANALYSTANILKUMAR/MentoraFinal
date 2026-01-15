@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<div style="padding: 60px 10%;">
+    <h2 style="text-align: center; color: var(--primary-blue);">Our Curriculum</h2>
+
+    <div class="card" style="margin-bottom: 30px;">
+        <h3 style="color: var(--accent-orange);">1. Data Analytics Mastery</h3>
+        <p>A comprehensive path from Excel to Machine Learning basics.</p>
+        <ul style="column-count: 2; padding: 20px;">
+            <li><strong>Excel:</strong> Advanced Formulas & VBA</li>
+            <li><strong>SQL:</strong> Complex Queries & Joins</li>
+            <li><strong>Python:</strong> Pandas, Numpy, Matplotlib</li>
+            <li><strong>Power BI:</strong> Interactive Dashboards</li>
+            <li><strong>ML Basics:</strong> Regression & Classification</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3 style="color: var(--accent-orange);">2. Testing Full Stack (Java/Python)</h3>
+        <p>Become an expert in Manual and Automation Testing.</p>
+        <ul style="column-count: 2; padding: 20px;">
+            <li><strong>Manual Testing:</strong> Test Cases & Bug Life Cycle</li>
+            <li><strong>Automation:</strong> Selenium WebDriver</li>
+            <li><strong>Frameworks:</strong> TestNG, PyTest, Cucumber</li>
+            <li><strong>API Testing:</strong> Postman & RestAssured</li>
+            <li><strong>CI/CD:</strong> Jenkins & Git Basics</li>
+        </ul>
+    </div>
+</div>
+{% endblock %}
